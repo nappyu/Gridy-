@@ -1,12 +1,12 @@
 # Gridy
 
-[![Gridy_video_link](https://github.com/nappyu/Gridy/blob/main/images/youtube.png)](https://youtu.be/LpiFU69CHWo)
+[![Gridy_video_link](https://github.com/nappyu/Gridy-/blob/main/images/youtube.png)](https://youtu.be/LpiFU69CHWo)
 
 ### Contributors
 David Kim, Hee Su Kim, Josh Rayo, Toji Nakabayashi, Won Tae Lee
 
 ### Prototype
-![Prototype](https://github.com/nappyu/Gridy/blob/main/images/gridy_example.png)
+![Prototype](https://github.com/nappyu/Gridy-/blob/main/images/gridy_example.png)
 
 ** NOTE: 't' is a unit of time **
 
