@@ -1,13 +1,12 @@
-# cpsc410_project1_team18 - Gridy
+# Gridy
 
-## Gridy
-[![Gridy_video_link](https://github.students.cs.ubc.ca/cpsc410-2020w-t1/cpsc410_project1_team18/blob/master/images/youtube.png)](https://youtu.be/LpiFU69CHWo)
+[![Gridy_video_link](https://github.com/nappyu/Gridy/blob/main/images/youtube.png)](https://youtu.be/LpiFU69CHWo)
 
 ### Contributors
 David Kim, Hee Su Kim, Josh Rayo, Toji Nakabayashi, Won Tae Lee
 
 ### Prototype
-![Prototype](https://github.students.cs.ubc.ca/cpsc410-2020w-t1/cpsc410_project1_team18/blob/master/images/gridy_example.png)
+![Prototype](https://github.com/nappyu/Gridy/blob/main/images/gridy_example.png)
 
 ** NOTE: 't' is a unit of time **
 
