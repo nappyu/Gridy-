@@ -1,0 +1,7 @@
+CreateGame(10, 10, 60, ‘C:\\Documents\music.mp3’);
+Cell half = CreateCell(0.5, red, 50);
+Repeat repeatHalf = CreateRepeat(half, 5, 30);
+Section a = CreateSection(60);
+a.Add(repeatHalf, 5, 1, 0)
+AddSection(a)
+Difficulty(3)

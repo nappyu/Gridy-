@@ -1,0 +1,15 @@
+.root{
+    -fx-background-color: #e8fcf0;
+}
+.score{
+    -fx-font-size: 22pt;
+    -fx-font-weight: bold;
+}
+.defaultCell{
+    -fx-background-color: linear-gradient(to bottom right, #FFDEE9, #B5FFFC);
+    -fx-border-color: black;
+    -fx-border-width: 2;
+}
+VBox{
+    -fx-alignment: center ;
+}

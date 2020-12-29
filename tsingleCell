@@ -1,0 +1,6 @@
+CreateGame(10, 10, 60,  filepath);
+Cell full = CreateCell(1, blue, 25);
+Section a = CreateSection(60);
+a.Add(full, 0, 1,  20);
+AddSection(a);
+Difficulty(3);

@@ -1,0 +1,9 @@
+CreateGame(5, 5, 60);
+Cell full = CreateCell(3, blue, 25);
+Cell half = CreateCell(2, red, 50);
+Function f = CreateFunction(t % 5, t % 5, half, 60);
+Section b =CreateSection(60);
+b.Add(f, 0);
+AddSection(b);
+
+Difficulty(1);

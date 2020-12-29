@@ -1,0 +1,17 @@
+CreateGame(10, 10, 60, ‘C:\\Documents\music.mp3’);
+Cell half = CreateCell(0.5, red, 50);
+Function f = CreateFunction({
+    x = t % x.size, y = 0, half}
+);
+Section a = CreateSection(60);
+a.Add(f, 5);
+AddSection(a);
+Difficulty(3);
+
+[ "CreateGame", "(", "10", ",", "10", ",", "60", ",","C:\\Documents\music.mp3", ")", ";",
+"Cell", "half", "=", "CreateCell", "(", "0.5", ",", "red" , ",", "50", ")" ";",
+"Function", "f", "=", "CreateFunction", "(", "{", "x = t % x.size, y = 0", "," "half", "}", ")", ";",
+"Section", "a", "=", "CreateSection", "(", "60")" ";",
+"a", ".", "Add", "(", "f", ",", "5", ")" ";",
+"AddSection", "(", "a", ")", ";",
+"Difficulty", "(", "3", ")", ";" ]

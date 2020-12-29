@@ -1,0 +1,19 @@
+PROGRAM:= STATEMENTS*
+STATEMENTS:= GEXP | DECLARE | ADD
+DECLARE:= DCELL | DREPEAT | DFUNCTION | DSECTION
+DCELL:= Cell NAME = CreateCell(NUMBER, COLOR, NUMBER);
+DREPEAT:= Repeat NAME = CreateRepeat(NAME, NUMBER, NUMBER);
+DFUNCTION:= Function NAME = CreateFunction(EQUATION, EQUATION, NAME, NUMBER);
+DSECTION:= Section NAME = CreateSection(NUMBER);
+ADD:= ADDSIMP | ADDFUNC
+ADDSIMP:= NAME[.]Add(NAME,NUMBER, NUMBER, NUMBER);
+ADDFUNC:= NAME[.]Add(NAME, NUMBER);
+GEXP:= GCREATE | ADDSECT | DIFFICULTY
+GCREATE:= CreateGame(NUMBER, NUMBER, NUMBER, DIRECTORY?);
+ADDSECT:= AddSection(NAME);
+DIFFICULTY:= Difficulty(LEVEL);
+LEVEL:= [0-9]                                                     #### level is only from 0 to 9
+NUMBER:= [0-9]+
+DIRECTORY:= ,[ ]*[A-Za-z:\\0-9.]+
+NAME:= [a-z][a-ZA-Z0-9]*
+COLOR:= ["red"| "green" | ...]|[hex]
